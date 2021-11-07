@@ -1,4 +1,4 @@
-# React Transfer List
+# React Drag Handles
 [![Build Status](https://app.travis-ci.com/trickl/react-drag-handle.svg?branch=master)](https://app.travis-ci.com/trickl/react-drag-handle)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b5f92597060361dda169/maintainability)](https://codeclimate.com/github/trickl/react-drag-handle/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/b5f92597060361dda169/test_coverage)](https://codeclimate.com/github/trickl/react-drag-handle/test_coverage)
