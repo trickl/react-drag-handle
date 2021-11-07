@@ -16,8 +16,8 @@
     "react-component",
     "icon",
     "surface",
-    "material",
-    "draggable",
+    "drag",
+    "handle",
     "ui"
   ],
   "main": "dist/index.js",
