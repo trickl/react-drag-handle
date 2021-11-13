@@ -1,0 +1,51 @@
+<!--- Icons.stories.mdx --->
+
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs';
+import { DragHandle } from './DragHandle';
+
+import AllIcons, { Dots2x3 } from './Icons';
+
+<Meta title="Icons" component={DragHandle} />
+
+# All Available Icons
+
+<Canvas>
+  <Story name="All">
+    {Object.keys(AllIcons).map((icon) => (
+      <div
+        key={icon}
+        style={{
+          display: 'inline-flex',
+          width: '200px',
+          height: '100px',
+          flexDirection: 'column',
+          alignItems: 'center',
+        }}
+      >
+        <small
+          style={{
+            marginBottom: '2em',
+            color: 'black',
+            fontFamily: 'arial',
+            fontSize: '12px',
+          }}
+        >
+          {icon}
+        </small>
+        <div>{AllIcons[icon]()}</div>
+      </div>
+    ))}
+  </Story>
+</Canvas>
+
+# Example Usage
+
+```
+import { Dots2x3 } from 'react-drag-handle/icons';
+
+<Dots2x3 />
+```
+
+# Props
+
+<ArgsTable of={Dots2x3} />

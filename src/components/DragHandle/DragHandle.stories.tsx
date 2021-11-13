@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { DragHandle, DragHandleProps } from './DragHandle';
 
 export default {
-  title: 'Snowfox/Controls/DragHandle',
+  title: 'DragHandle',
   component: DragHandle,
 } as Meta;
 
@@ -12,6 +12,7 @@ const Template: Story<DragHandleProps> = (args) => <DragHandle {...args} />;
 export const Dots3x2 = Template.bind({});
 Dots3x2.args = {
   variant: 'dots3x2',
+  rotationDegrees: 90,
 };
 
 export const Dots4x2 = Template.bind({});

@@ -32,80 +32,78 @@ export const DragHandleVariants: {
 } = {
   dots3x2: {
     styles: {
-      width: '18px',
-      height: '12px',
+      width: '1.5em',
+      height: '1em',
     },
     surface: { variant: 'dots' },
   },
   dots4x2: {
     styles: {
-      width: '24px',
-      height: '12px',
+      width: '2em',
+      height: '1em',
     },
     surface: { variant: 'dots' },
   },
   dots3x3: {
     styles: {
-      width: '18px',
-      height: '18px',
+      width: '1.5em',
+      height: '1.5em',
     },
     surface: { variant: 'dots' },
   },
   cornerDots3x3: {
     styles: {
-      width: '18px',
-      height: '18px',
+      width: '1.40em',
+      height: '1.40em',
       overflow: 'hidden',
-      marginLeft: '-4px',
       clipPath: 'polygon(0 0, 110% 0, 0 110%)',
     },
     surface: offsetDiagonalDots,
   },
   wavyDots3x2: {
     styles: {
-      width: '14px',
-      height: '22px',
+      width: '1em',
+      height: '1.9em',
       overflow: 'hidden',
     },
     surface: offsetDiagonalDots,
   },
   wavyDots4x2: {
     styles: {
-      width: '14px',
-      height: '30px',
+      width: '1em',
+      height: '2.6em',
       overflow: 'hidden',
     },
     surface: offsetDiagonalDots,
   },
   wavyDots5x2: {
     styles: {
-      width: '14px',
-      height: '40px',
+      width: '1em',
+      height: '3.4em',
       overflow: 'hidden',
     },
     surface: offsetDiagonalDots,
   },
   lines3x2: {
     styles: {
-      width: '18px',
-      height: '12px',
+      width: '1.5em',
+      height: '1em',
     },
     surface: { variant: 'lines' },
   },
   lines4x2: {
     styles: {
-      width: '24px',
-      height: '12px',
+      width: '2em',
+      height: '1em',
     },
     surface: { variant: 'lines' },
   },
-
   cornerLines3x3: {
     styles: {
-      width: '18px',
-      height: '18px',
+      width: '1.5em',
+      height: '1.5em',
       overflow: 'hidden',
-      clipPath: 'polygon(0 0, 110% 0, 0 110%)',
+      clipPath: 'polygon(0 0, 120% 0, 0 120%)',
     },
     surface: { variant: 'lines', orientation: 'diagonal' },
   },

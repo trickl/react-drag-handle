@@ -2,6 +2,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import typescript from 'rollup-plugin-typescript2';
+import mdx from '@mdx-js/rollup'
 
 import packageJson from './package.json';
 
@@ -20,7 +21,7 @@ const rollupConfig = {
       sourcemap: true,
     },
   ],
-  plugins: [peerDepsExternal(), resolve(), commonjs(), typescript()],
+  plugins: [peerDepsExternal(), resolve(), commonjs(), typescript(), mdx()],
 };
 
 export default rollupConfig;

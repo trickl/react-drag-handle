@@ -3,12 +3,12 @@ import { Meta, Story } from '@storybook/react';
 import { GripSurface, GripSurfaceProps } from './GripSurface';
 
 export default {
-  title: 'Snowfox/Controls/GripSurface',
+  title: 'GripSurface',
   component: GripSurface,
 } as Meta;
 
 const Template: Story<GripSurfaceProps> = (args) => (
-  <GripSurface style={{ width: '84px', height: '84px' }} {...args} />
+  <GripSurface style={{ width: '10em', height: '10em' }} {...args} />
 );
 
 export const Dots = Template.bind({});

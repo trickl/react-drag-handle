@@ -1,6 +1,6 @@
 {
   "name": "react-drag-handle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Just the drag handles...React icons indicating a surface is draggable",
   "repository": "https://github.com/trickl/react-drag-handle",
   "author": {
@@ -84,6 +84,7 @@
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
+    "@mdx-js/rollup": "^2.0.0-rc.1",
     "@mui/material": "^5.0.6",
     "@mui/styles": "^5.0.2",
     "@types/lodash": "^4.14.176",
@@ -109,7 +110,7 @@
     "eslint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
     "eslint:fix": "eslint --ext .js,.jsx,.ts,.tsx src --color --fix",
     "eslint-rules": "eslint-find-rules .eslintrc.json --current",
-    "prettier": "prettier --single-quote --write 'src/**/*.{jsx,js,ts,tsx,scss}'",
+    "prettier": "prettier --single-quote --write 'src/**/*.{jsx,js,ts,tsx,scss,mdx}'",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
