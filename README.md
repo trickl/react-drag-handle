@@ -11,7 +11,14 @@ CSS icons for indicating dragability.
 npm i react-drag-handle
 ```
 
-## Usage and Demo
+## Example Usage
+```
+import { Dots2x3 } from 'react-drag-handle/icons';
+
+<Dots2x3 />
+```
+
+## More Documentation
 [Visit The Storybook Page](https://www.chromatic.com/library?appId=618805f2793e5c003a2757bb&groupPrefix=Snowfox%2FControls)
 
 ## Available Icons
