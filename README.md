@@ -19,7 +19,7 @@ import { Dots2x3 } from 'react-drag-handle/icons';
 ```
 
 ## More Documentation
-[Visit The Storybook Page](https://www.chromatic.com/library?appId=618805f2793e5c003a2757bb&groupPrefix=Snowfox%2FControls)
+[Visit The Storybook Page](https://www.chromatic.com/component?appId=618805f2793e5c003a2757bb&name=Icons&buildNumber=10&historyLengthAtIndex=17&distanceToMoveBack=-2&componentInspectorKey=618fcae9fdbe08003a1df917-1200-docs-true)
 
 ## Available Icons
 ![Available Icons Image](https://github.com/trickl/react-drag-handle/blob/master/docs/allicons.png)
