@@ -4,7 +4,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/fe52a5f908808d9f6d99/test_coverage)](https://codeclimate.com/github/trickl/react-drag-handle/test_coverage)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-CSS icons for indicating dragability.
+CSS-based icons for indicating dragability.
 
 ## Install
 ```bash
