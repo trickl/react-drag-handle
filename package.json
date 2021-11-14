@@ -1,6 +1,6 @@
 {
   "name": "react-drag-handle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Just the drag handles...React icons indicating a surface is draggable",
   "repository": "https://github.com/trickl/react-drag-handle",
   "author": {
@@ -39,6 +39,7 @@
     "@babel/preset-typescript": "^7.16.0",
     "@babel/register": "^7.16.0",
     "@babel/runtime": "^7.16.0",
+    "@mdx-js/rollup": "^2.0.0-rc.1",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.0.6",
     "@storybook/addon-actions": "^6.3.12",
@@ -84,9 +85,6 @@
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
-    "@mdx-js/rollup": "^2.0.0-rc.1",
-    "@mui/material": "^5.0.6",
-    "@mui/styles": "^5.0.2",
     "@types/lodash": "^4.14.176",
     "@types/react": "^17.0.33",
     "classnames": "^2.3.1"
