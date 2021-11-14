@@ -13,7 +13,7 @@ npm i react-drag-handle
 
 ## Example Usage
 ```
-import { Dots2x3 } from 'react-drag-handle/icons';
+import { Dots2x3 } from 'react-drag-handle/dist/icons';
 
 <Dots2x3 />
 ```

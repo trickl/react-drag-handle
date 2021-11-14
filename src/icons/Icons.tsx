@@ -1,6 +1,9 @@
 import { ReactElement } from 'react';
 
-import { DragHandle, DragHandleProps } from './DragHandle';
+import {
+  DragHandle,
+  DragHandleProps,
+} from '../components/DragHandle/DragHandle';
 
 export type IconProps = Omit<DragHandleProps, 'variant' | 'rotationDegrees'>;
 
