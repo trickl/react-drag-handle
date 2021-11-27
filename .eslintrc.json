@@ -23,7 +23,7 @@
   },
   "rules": {
     "prettier/prettier": ["error", { "singleQuote": true }],
-    "@typescript-eslint/explicit-function-return-type": "off",    
+    "@typescript-eslint/explicit-function-return-type": "off",
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": "error"
   },
@@ -38,6 +38,10 @@
           }
         ]
       }
+    },
+    {
+      "files": ["*.mdx"],
+      "extends": "plugin:mdx/recommended"
     }
   ],
   "settings": {
@@ -51,10 +55,11 @@
           ["components", "./lib/src/components"],
           ["hooks", "./lib/src/hooks"]
         ],
-        "extensions": [".ts", ".js", ".tsx", ".json"]
+        "extensions": [".ts", ".js", ".tsx", ".mdx", ".json"]
       }
     },
-    "import/ignore": ["node_modules"]
+    "import/ignore": ["node_modules"],
+    "mdx/code-blocks": true
   },
   "parser": "@typescript-eslint/parser"
 }
