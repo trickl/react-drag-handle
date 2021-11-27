@@ -1,6 +1,6 @@
 {
   "name": "react-drag-handle",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Just the drag handles...React icons indicating a surface is draggable",
   "repository": "https://github.com/trickl/react-drag-handle",
   "author": {
@@ -71,6 +71,7 @@
     "eslint-plugin-standard": "^5.0.0",
     "eslint-plugin-tsc": "^2.0.0",
     "husky": "^7.0.4",
+    "install-peers": "^1.0.3",
     "install-peers-cli": "^2.2.0",
     "jest": "^27.3.1",
     "lint-staged": "^11.2.6",
@@ -104,8 +105,7 @@
     ]
   },
   "scripts": {
-    "prepublish": "rimraf dist && npm run build",
-    "prepare": "install-peers",
+    "prepare": "install-peers && rimraf rish && npm run build",
     "build": "rollup -c",
     "test": "jest",
     "lint": "npm run eslint",
